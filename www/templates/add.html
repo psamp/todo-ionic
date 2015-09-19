@@ -1,0 +1,18 @@
+<ion-view>
+
+  <ion-content>
+    <ion-list>
+      <form ng-submit="add.addNewItem(add.newItem)">
+        <div class="list">
+          <label class="item item-input">
+            <input type="text" placeholder="What do you need to do?" ng-model="add.newItem">
+          </label>
+          <div class="padding">
+            <button type="submit" class="button button-block button-positive">Add Task</button>
+          </div>
+        </div>
+      </form>
+    </ion-list>
+  </ion-content>
+
+</ion-view>
